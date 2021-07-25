@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'data-binding';
+  serverElements = [{type: 'server', name:'Testserver', content: 'just a test'}]
 }
