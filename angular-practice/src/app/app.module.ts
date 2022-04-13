@@ -11,6 +11,7 @@ import {FormsModule} from "@angular/forms";
 import { UsernameComponent } from './username/username.component';
 import { DisplayComponent } from './display/display.component';
 import { BrowserAnimationModuleComponent } from './browser-animation-module/browser-animation-module.component';
+import { RouterlinkActiveComponent } from './routerlink-active/routerlink-active.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationModuleComponent } from './browser-animation-module/brow
     SuccessAlertComponent,
     UsernameComponent,
     DisplayComponent,
-    BrowserAnimationModuleComponent
+    BrowserAnimationModuleComponent,
+    RouterlinkActiveComponent
   ],
   imports: [
     BrowserModule,
