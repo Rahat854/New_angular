@@ -12,6 +12,7 @@ import { UsernameComponent } from './username/username.component';
 import { DisplayComponent } from './display/display.component';
 import { BrowserAnimationModuleComponent } from './browser-animation-module/browser-animation-module.component';
 import { RouterlinkActiveComponent } from './routerlink-active/routerlink-active.component';
+import { RouterlinkComponent } from './routerlink/routerlink.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RouterlinkActiveComponent } from './routerlink-active/routerlink-active
     UsernameComponent,
     DisplayComponent,
     BrowserAnimationModuleComponent,
-    RouterlinkActiveComponent
+    RouterlinkActiveComponent,
+    RouterlinkComponent
   ],
   imports: [
     BrowserModule,
