@@ -13,6 +13,7 @@ import { DisplayComponent } from './display/display.component';
 import { BrowserAnimationModuleComponent } from './browser-animation-module/browser-animation-module.component';
 import { RouterlinkActiveComponent } from './routerlink-active/routerlink-active.component';
 import { RouterlinkComponent } from './routerlink/routerlink.component';
+import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outlet.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterlinkComponent } from './routerlink/routerlink.component';
     DisplayComponent,
     BrowserAnimationModuleComponent,
     RouterlinkActiveComponent,
-    RouterlinkComponent
+    RouterlinkComponent,
+    NgTemplateOutletComponent
   ],
   imports: [
     BrowserModule,
