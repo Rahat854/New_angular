@@ -14,6 +14,7 @@ import { BrowserAnimationModuleComponent } from './browser-animation-module/brow
 import { RouterlinkActiveComponent } from './routerlink-active/routerlink-active.component';
 import { RouterlinkComponent } from './routerlink/routerlink.component';
 import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outlet.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outl
     BrowserAnimationModuleComponent,
     RouterlinkActiveComponent,
     RouterlinkComponent,
-    NgTemplateOutletComponent
+    NgTemplateOutletComponent,
+    NgStyleComponent
   ],
   imports: [
     BrowserModule,
