@@ -17,6 +17,7 @@ import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outl
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgStylesComponent } from './ng-styles/ng-styles.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgClassesComponent } from './ng-classes/ng-classes.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     NgTemplateOutletComponent,
     NgStyleComponent,
     NgStylesComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgClassesComponent
   ],
   imports: [
     BrowserModule,
