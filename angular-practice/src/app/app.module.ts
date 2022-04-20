@@ -18,6 +18,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgStylesComponent } from './ng-styles/ng-styles.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgClassesComponent } from './ng-classes/ng-classes.component';
+import { ViewChildComponent } from './view-child/view-child.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { NgClassesComponent } from './ng-classes/ng-classes.component';
     NgStyleComponent,
     NgStylesComponent,
     NgClassComponent,
-    NgClassesComponent
+    NgClassesComponent,
+    ViewChildComponent
   ],
   imports: [
     BrowserModule,
