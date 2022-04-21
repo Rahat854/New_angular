@@ -19,6 +19,7 @@ import { NgStylesComponent } from './ng-styles/ng-styles.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgClassesComponent } from './ng-classes/ng-classes.component';
 import { ViewChildComponent } from './view-child/view-child.component';
+import { SkipSelfComponent } from './skip-self/skip-self.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ViewChildComponent } from './view-child/view-child.component';
     NgStylesComponent,
     NgClassComponent,
     NgClassesComponent,
-    ViewChildComponent
+    ViewChildComponent,
+    SkipSelfComponent
   ],
   imports: [
     BrowserModule,
