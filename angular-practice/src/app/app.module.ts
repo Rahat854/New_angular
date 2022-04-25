@@ -22,6 +22,7 @@ import { ViewChildComponent } from './view-child/view-child.component';
 import { SkipSelfComponent } from './skip-self/skip-self.component';
 import { SelfComponent } from './self/self.component';
 import { PipeComponent } from './pipe/pipe.component';
+import { OptionalComponent } from './optional/optional.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { PipeComponent } from './pipe/pipe.component';
     ViewChildComponent,
     SkipSelfComponent,
     SelfComponent,
-    PipeComponent
+    PipeComponent,
+    OptionalComponent
   ],
   imports: [
     BrowserModule,
