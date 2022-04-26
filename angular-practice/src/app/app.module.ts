@@ -23,6 +23,7 @@ import { SkipSelfComponent } from './skip-self/skip-self.component';
 import { SelfComponent } from './self/self.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { OptionalComponent } from './optional/optional.component';
+import { NgModuleComponent } from './ng-module/ng-module.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { OptionalComponent } from './optional/optional.component';
     SkipSelfComponent,
     SelfComponent,
     PipeComponent,
-    OptionalComponent
+    OptionalComponent,
+    NgModuleComponent
   ],
   imports: [
     BrowserModule,
