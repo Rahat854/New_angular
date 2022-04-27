@@ -24,6 +24,7 @@ import { SelfComponent } from './self/self.component';
 import { PipeComponent } from './pipe/pipe.component';
 import { OptionalComponent } from './optional/optional.component';
 import { NgModuleComponent } from './ng-module/ng-module.component';
+import { OutputComponent } from './output/output.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { NgModuleComponent } from './ng-module/ng-module.component';
     SelfComponent,
     PipeComponent,
     OptionalComponent,
-    NgModuleComponent
+    NgModuleComponent,
+    OutputComponent
   ],
   imports: [
     BrowserModule,
