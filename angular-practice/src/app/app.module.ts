@@ -25,6 +25,8 @@ import { PipeComponent } from './pipe/pipe.component';
 import { OptionalComponent } from './optional/optional.component';
 import { NgModuleComponent } from './ng-module/ng-module.component';
 import { OutputComponent } from './output/output.component';
+import { InputComponent } from './input/input.component';
+import { InjectableComponent } from './injectable/injectable.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { OutputComponent } from './output/output.component';
     PipeComponent,
     OptionalComponent,
     NgModuleComponent,
-    OutputComponent
+    OutputComponent,
+    InputComponent,
+    InjectableComponent
   ],
   imports: [
     BrowserModule,
