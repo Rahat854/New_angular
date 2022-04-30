@@ -27,6 +27,7 @@ import { NgModuleComponent } from './ng-module/ng-module.component';
 import { OutputComponent } from './output/output.component';
 import { InputComponent } from './input/input.component';
 import { InjectableComponent } from './injectable/injectable.component';
+import { InjectComponent } from './inject/inject.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { InjectableComponent } from './injectable/injectable.component';
     NgModuleComponent,
     OutputComponent,
     InputComponent,
-    InjectableComponent
+    InjectableComponent,
+    InjectComponent
   ],
   imports: [
     BrowserModule,
