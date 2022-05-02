@@ -28,6 +28,8 @@ import { OutputComponent } from './output/output.component';
 import { InputComponent } from './input/input.component';
 import { InjectableComponent } from './injectable/injectable.component';
 import { InjectComponent } from './inject/inject.component';
+import { HostListenerComponent } from './host-listener/host-listener.component';
+import { HostBindingComponent } from './host-binding/host-binding.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { InjectComponent } from './inject/inject.component';
     OutputComponent,
     InputComponent,
     InjectableComponent,
-    InjectComponent
+    InjectComponent,
+    HostListenerComponent,
+    HostBindingComponent
   ],
   imports: [
     BrowserModule,
