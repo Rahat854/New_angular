@@ -31,6 +31,7 @@ import { InjectComponent } from './inject/inject.component';
 import { HostListenerComponent } from './host-listener/host-listener.component';
 import { HostBindingComponent } from './host-binding/host-binding.component';
 import { HostComponent } from './host/host.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { HostComponent } from './host/host.component';
     InjectComponent,
     HostListenerComponent,
     HostBindingComponent,
-    HostComponent
+    HostComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
