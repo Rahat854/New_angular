@@ -32,6 +32,8 @@ import { HostListenerComponent } from './host-listener/host-listener.component';
 import { HostBindingComponent } from './host-binding/host-binding.component';
 import { HostComponent } from './host/host.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { ContentChildrenComponent } from './content-children/content-children.component';
+import { ContentChildComponent } from './content-child/content-child.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,9 @@ import { DirectiveComponent } from './directive/directive.component';
     HostListenerComponent,
     HostBindingComponent,
     HostComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    ContentChildrenComponent,
+    ContentChildComponent
   ],
   imports: [
     BrowserModule,
