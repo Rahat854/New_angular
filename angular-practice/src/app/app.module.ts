@@ -35,6 +35,7 @@ import { DirectiveComponent } from './directive/directive.component';
 import { ContentChildrenComponent } from './content-children/content-children.component';
 import { ContentChildComponent } from './content-child/content-child.component';
 import { ComponentComponent } from './component/component.component';
+import { RouterComponent } from './router/router.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { ComponentComponent } from './component/component.component';
     DirectiveComponent,
     ContentChildrenComponent,
     ContentChildComponent,
-    ComponentComponent
+    ComponentComponent,
+    RouterComponent
   ],
   imports: [
     BrowserModule,
