@@ -38,6 +38,7 @@ import { ComponentComponent } from './component/component.component';
 import { RouterComponent } from './router/router.component';
 import { ActivatedRouteSnapshotComponent } from './activated-route-snapshot/activated-route-snapshot.component';
 import { ActivatedRouteComponent } from './activated-route/activated-route.component';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { ActivatedRouteComponent } from './activated-route/activated-route.compo
     ComponentComponent,
     RouterComponent,
     ActivatedRouteSnapshotComponent,
-    ActivatedRouteComponent
+    ActivatedRouteComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
