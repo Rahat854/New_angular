@@ -39,6 +39,7 @@ import { RouterComponent } from './router/router.component';
 import { ActivatedRouteSnapshotComponent } from './activated-route-snapshot/activated-route-snapshot.component';
 import { ActivatedRouteComponent } from './activated-route/activated-route.component';
 import { TitleComponent } from './title/title.component';
+import { DomSanitizerComponent } from './dom-sanitizer/dom-sanitizer.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { TitleComponent } from './title/title.component';
     RouterComponent,
     ActivatedRouteSnapshotComponent,
     ActivatedRouteComponent,
-    TitleComponent
+    TitleComponent,
+    DomSanitizerComponent
   ],
   imports: [
     BrowserModule,
