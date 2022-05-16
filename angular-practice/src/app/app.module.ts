@@ -41,6 +41,7 @@ import { ActivatedRouteComponent } from './activated-route/activated-route.compo
 import { TitleComponent } from './title/title.component';
 import { DomSanitizerComponent } from './dom-sanitizer/dom-sanitizer.component';
 import { ValidatorsComponent } from './validators/validators.component';
+import { FormGroupComponent } from './form-group/form-group.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { ValidatorsComponent } from './validators/validators.component';
     ActivatedRouteComponent,
     TitleComponent,
     DomSanitizerComponent,
-    ValidatorsComponent
+    ValidatorsComponent,
+    FormGroupComponent
   ],
   imports: [
     BrowserModule,
