@@ -42,6 +42,8 @@ import { TitleComponent } from './title/title.component';
 import { DomSanitizerComponent } from './dom-sanitizer/dom-sanitizer.component';
 import { ValidatorsComponent } from './validators/validators.component';
 import { FormGroupComponent } from './form-group/form-group.component';
+import { FormControlComponent } from './form-control/form-control.component';
+import { FormBuilderComponent } from './form-builder/form-builder.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +85,9 @@ import { FormGroupComponent } from './form-group/form-group.component';
     TitleComponent,
     DomSanitizerComponent,
     ValidatorsComponent,
-    FormGroupComponent
+    FormGroupComponent,
+    FormControlComponent,
+    FormBuilderComponent
   ],
   imports: [
     BrowserModule,
