@@ -44,6 +44,7 @@ import { ValidatorsComponent } from './validators/validators.component';
 import { FormGroupComponent } from './form-group/form-group.component';
 import { FormControlComponent } from './form-control/form-control.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
+import { FormArrayComponent } from './form-array/form-array.component';
 
 @NgModule({
   declarations: [
@@ -87,7 +88,8 @@ import { FormBuilderComponent } from './form-builder/form-builder.component';
     ValidatorsComponent,
     FormGroupComponent,
     FormControlComponent,
-    FormBuilderComponent
+    FormBuilderComponent,
+    FormArrayComponent
   ],
   imports: [
     BrowserModule,
