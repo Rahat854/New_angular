@@ -45,6 +45,7 @@ import { FormGroupComponent } from './form-group/form-group.component';
 import { FormControlComponent } from './form-control/form-control.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { FormArrayComponent } from './form-array/form-array.component';
+import { AbstractControlComponent } from './abstract-control/abstract-control.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,8 @@ import { FormArrayComponent } from './form-array/form-array.component';
     FormGroupComponent,
     FormControlComponent,
     FormBuilderComponent,
-    FormArrayComponent
+    FormArrayComponent,
+    AbstractControlComponent
   ],
   imports: [
     BrowserModule,
