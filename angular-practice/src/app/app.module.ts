@@ -46,6 +46,9 @@ import { FormControlComponent } from './form-control/form-control.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { FormArrayComponent } from './form-array/form-array.component';
 import { AbstractControlComponent } from './abstract-control/abstract-control.component';
+import { TemplateRefComponent } from './template-ref/template-ref.component';
+import { SanitizerComponent } from './sanitizer/sanitizer.component';
+import { ReadererComponent } from './readerer/readerer.component';
 
 @NgModule({
   declarations: [
@@ -91,7 +94,10 @@ import { AbstractControlComponent } from './abstract-control/abstract-control.co
     FormControlComponent,
     FormBuilderComponent,
     FormArrayComponent,
-    AbstractControlComponent
+    AbstractControlComponent,
+    TemplateRefComponent,
+    SanitizerComponent,
+    ReadererComponent
   ],
   imports: [
     BrowserModule,
