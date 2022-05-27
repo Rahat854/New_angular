@@ -49,6 +49,7 @@ import { AbstractControlComponent } from './abstract-control/abstract-control.co
 import { TemplateRefComponent } from './template-ref/template-ref.component';
 import { SanitizerComponent } from './sanitizer/sanitizer.component';
 import { ReadererComponent } from './readerer/readerer.component';
+import { EventEmitterComponent } from './event-emitter/event-emitter.component';
 
 @NgModule({
   declarations: [
@@ -97,7 +98,8 @@ import { ReadererComponent } from './readerer/readerer.component';
     AbstractControlComponent,
     TemplateRefComponent,
     SanitizerComponent,
-    ReadererComponent
+    ReadererComponent,
+    EventEmitterComponent
   ],
   imports: [
     BrowserModule,
