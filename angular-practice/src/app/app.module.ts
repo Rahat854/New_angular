@@ -50,6 +50,7 @@ import { TemplateRefComponent } from './template-ref/template-ref.component';
 import { SanitizerComponent } from './sanitizer/sanitizer.component';
 import { ReadererComponent } from './readerer/readerer.component';
 import { EventEmitterComponent } from './event-emitter/event-emitter.component';
+import { ElementRefComponent } from './element-ref/element-ref.component';
 
 @NgModule({
   declarations: [
@@ -99,7 +100,8 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component';
     TemplateRefComponent,
     SanitizerComponent,
     ReadererComponent,
-    EventEmitterComponent
+    EventEmitterComponent,
+    ElementRefComponent
   ],
   imports: [
     BrowserModule,
