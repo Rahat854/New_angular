@@ -51,6 +51,7 @@ import { SanitizerComponent } from './sanitizer/sanitizer.component';
 import { ReadererComponent } from './readerer/readerer.component';
 import { EventEmitterComponent } from './event-emitter/event-emitter.component';
 import { ElementRefComponent } from './element-ref/element-ref.component';
+import { ComponentRefComponent } from './component-ref/component-ref.component';
 
 @NgModule({
   declarations: [
@@ -101,7 +102,8 @@ import { ElementRefComponent } from './element-ref/element-ref.component';
     SanitizerComponent,
     ReadererComponent,
     EventEmitterComponent,
-    ElementRefComponent
+    ElementRefComponent,
+    ComponentRefComponent
   ],
   imports: [
     BrowserModule,
