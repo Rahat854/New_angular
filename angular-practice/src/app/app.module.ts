@@ -52,6 +52,8 @@ import { ReadererComponent } from './readerer/readerer.component';
 import { EventEmitterComponent } from './event-emitter/event-emitter.component';
 import { ElementRefComponent } from './element-ref/element-ref.component';
 import { ComponentRefComponent } from './component-ref/component-ref.component';
+import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +105,9 @@ import { ComponentRefComponent } from './component-ref/component-ref.component';
     ReadererComponent,
     EventEmitterComponent,
     ElementRefComponent,
-    ComponentRefComponent
+    ComponentRefComponent,
+    NgTemplateComponent,
+    NgContentComponent
   ],
   imports: [
     BrowserModule,
