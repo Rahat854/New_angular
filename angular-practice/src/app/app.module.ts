@@ -54,6 +54,7 @@ import { ElementRefComponent } from './element-ref/element-ref.component';
 import { ComponentRefComponent } from './component-ref/component-ref.component';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -107,7 +108,8 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     ElementRefComponent,
     ComponentRefComponent,
     NgTemplateComponent,
-    NgContentComponent
+    NgContentComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,
