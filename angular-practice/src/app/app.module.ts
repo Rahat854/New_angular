@@ -55,6 +55,7 @@ import { ComponentRefComponent } from './component-ref/component-ref.component';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { NgContainerComponent } from './ng-container/ng-container.component';
+import { DecimalPipeComponent } from './decimal-pipe/decimal-pipe.component';
 
 @NgModule({
   declarations: [
@@ -109,7 +110,8 @@ import { NgContainerComponent } from './ng-container/ng-container.component';
     ComponentRefComponent,
     NgTemplateComponent,
     NgContentComponent,
-    NgContainerComponent
+    NgContainerComponent,
+    DecimalPipeComponent
   ],
   imports: [
     BrowserModule,
