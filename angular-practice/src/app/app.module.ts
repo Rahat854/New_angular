@@ -56,6 +56,7 @@ import { NgTemplateComponent } from './ng-template/ng-template.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { NgContainerComponent } from './ng-container/ng-container.component';
 import { DecimalPipeComponent } from './decimal-pipe/decimal-pipe.component';
+import { DatePipeComponent } from './date-pipe/date-pipe.component';
 
 @NgModule({
   declarations: [
@@ -111,7 +112,8 @@ import { DecimalPipeComponent } from './decimal-pipe/decimal-pipe.component';
     NgTemplateComponent,
     NgContentComponent,
     NgContainerComponent,
-    DecimalPipeComponent
+    DecimalPipeComponent,
+    DatePipeComponent
   ],
   imports: [
     BrowserModule,
