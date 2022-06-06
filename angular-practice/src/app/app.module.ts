@@ -59,6 +59,7 @@ import { DecimalPipeComponent } from './decimal-pipe/decimal-pipe.component';
 import { DatePipeComponent } from './date-pipe/date-pipe.component';
 import { CurrencyPipeComponent } from './currency-pipe/currency-pipe.component';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
+import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor.component';
 
 @NgModule({
   declarations: [
@@ -117,7 +118,8 @@ import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
     DecimalPipeComponent,
     DatePipeComponent,
     CurrencyPipeComponent,
-    AsyncPipeComponent
+    AsyncPipeComponent,
+    ErrorInterceptorComponent
   ],
   imports: [
     BrowserModule,
