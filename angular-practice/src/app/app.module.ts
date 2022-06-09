@@ -60,6 +60,7 @@ import { DatePipeComponent } from './date-pipe/date-pipe.component';
 import { CurrencyPipeComponent } from './currency-pipe/currency-pipe.component';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor.component';
+import { HttpStatusCodeComponent } from './http-status-code/http-status-code.component';
 
 @NgModule({
   declarations: [
@@ -119,7 +120,8 @@ import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor
     DatePipeComponent,
     CurrencyPipeComponent,
     AsyncPipeComponent,
-    ErrorInterceptorComponent
+    ErrorInterceptorComponent,
+    HttpStatusCodeComponent
   ],
   imports: [
     BrowserModule,
