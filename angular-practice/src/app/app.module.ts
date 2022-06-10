@@ -61,6 +61,7 @@ import { CurrencyPipeComponent } from './currency-pipe/currency-pipe.component';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor.component';
 import { HttpStatusCodeComponent } from './http-status-code/http-status-code.component';
+import { HttpClientModuleComponent } from './http-client-module/http-client-module.component';
 
 @NgModule({
   declarations: [
@@ -121,7 +122,8 @@ import { HttpStatusCodeComponent } from './http-status-code/http-status-code.com
     CurrencyPipeComponent,
     AsyncPipeComponent,
     ErrorInterceptorComponent,
-    HttpStatusCodeComponent
+    HttpStatusCodeComponent,
+    HttpClientModuleComponent
   ],
   imports: [
     BrowserModule,
