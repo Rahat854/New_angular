@@ -62,6 +62,7 @@ import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor.component';
 import { HttpStatusCodeComponent } from './http-status-code/http-status-code.component';
 import { HttpClientModuleComponent } from './http-client-module/http-client-module.component';
+import { HttpClientComponent } from './http-client/http-client.component';
 
 @NgModule({
   declarations: [
@@ -123,7 +124,8 @@ import { HttpClientModuleComponent } from './http-client-module/http-client-modu
     AsyncPipeComponent,
     ErrorInterceptorComponent,
     HttpStatusCodeComponent,
-    HttpClientModuleComponent
+    HttpClientModuleComponent,
+    HttpClientComponent
   ],
   imports: [
     BrowserModule,
