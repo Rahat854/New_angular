@@ -63,6 +63,7 @@ import { ErrorInterceptorComponent } from './error-interceptor/error-interceptor
 import { HttpStatusCodeComponent } from './http-status-code/http-status-code.component';
 import { HttpClientModuleComponent } from './http-client-module/http-client-module.component';
 import { HttpClientComponent } from './http-client/http-client.component';
+import { HttpInterceptorComponent } from './http-interceptor/http-interceptor.component';
 
 @NgModule({
   declarations: [
@@ -125,7 +126,8 @@ import { HttpClientComponent } from './http-client/http-client.component';
     ErrorInterceptorComponent,
     HttpStatusCodeComponent,
     HttpClientModuleComponent,
-    HttpClientComponent
+    HttpClientComponent,
+    HttpInterceptorComponent
   ],
   imports: [
     BrowserModule,
