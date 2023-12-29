@@ -16,6 +16,7 @@ import { RouterlinkComponent } from './routerlink/routerlink.component';
 import { NgTemplateOutletComponent } from './ng-template-outlet/ng-template-outlet.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgStylesComponent } from './ng-styles/ng-styles.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NgStylesComponent } from './ng-styles/ng-styles.component';
     RouterlinkComponent,
     NgTemplateOutletComponent,
     NgStyleComponent,
-    NgStylesComponent
+    NgStylesComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
