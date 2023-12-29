@@ -10,6 +10,7 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import {FormsModule} from "@angular/forms";
 import { UsernameComponent } from './username/username.component';
 import { DisplayComponent } from './display/display.component';
+import { BrowserAnimationModuleComponent } from './browser-animation-module/browser-animation-module.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DisplayComponent } from './display/display.component';
     WaringAlertComponent,
     SuccessAlertComponent,
     UsernameComponent,
-    DisplayComponent
+    DisplayComponent,
+    BrowserAnimationModuleComponent
   ],
   imports: [
     BrowserModule,
